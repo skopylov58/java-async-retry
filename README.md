@@ -1,5 +1,5 @@
 ![example workflow](https://github.com/skopylov58/java-async-retry/actions/workflows/gradle.yml/badge.svg)
-[![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://skopylov58.github.io/java-async-retry/javadoc/)
+[![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://skopylov58.github.io/java-async-retry/)
 
 ## `Retry<T>` - non-blocking asynchronous functional retry procedure
 
