@@ -1,3 +1,5 @@
+![example workflow](https://github.com/skopylov58/java-async-retry/actions/workflows/gradle.yml/badge.svg)
+
 ## `Retry<T>` - non-blocking asynchronous functional retry procedure
 
 Retry is ancient strategy of failure recovering. We using Retry a lot when connecting to databases, doing HTTP requests, sending e-mails, etc., etc.
