@@ -9,6 +9,12 @@ repositories {
     mavenCentral()
 }
 
+task sourceJar(type: Jar) {
+   from sourceSets.main.allJava
+   archiveClassifier = "sources"
+ }
+
+
 publishing {
     publications {
         maven(MavenPublication) {
@@ -17,6 +23,7 @@ publishing {
             version = '0.1.0'
 
             from components.java
+            artifact sourceJar
         }
     }
     
