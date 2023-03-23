@@ -31,7 +31,7 @@ import java.util.function.Supplier;
  * @author Sergey Kopylov
  * @author skopylov@gmail.com
  * 
- *@see <a href="https://github.com/skopylov58/java-async-retry/actions">Github</a>
+ *@see <a href="https://github.com/skopylov58/java-async-retry/actions">See Github project</a>
  * 
  */
 public interface Retry {
