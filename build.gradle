@@ -2,10 +2,23 @@
 plugins {
     id 'java'
     id 'eclipse'
+    id 'maven-publish'
 }
 
 repositories {
     mavenCentral()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.skopylov58'
+            artifactId = 'java-async-retry'
+            version = '0.1.0'
+
+            from components.java
+        }
+    }
 }
 
 dependencies {
