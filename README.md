@@ -62,5 +62,5 @@ You can easily implement any desired backoff strategy. Lets say you want Fibonac
     .withBackoff(i -> fibonacciBackoff(i, Duration.ofMillis(10), Duration.ofSeconds(1))
     .retry();
 ```
- 
+[See also article on habr.com](https://habr.com/ru/post/702628/) 
 
