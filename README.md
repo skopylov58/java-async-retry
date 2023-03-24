@@ -1,5 +1,6 @@
 ![example workflow](https://github.com/skopylov58/java-async-retry/actions/workflows/gradle.yml/badge.svg)
-[![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://skopylov58.github.io/java-async-retry/)
+[![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://skopylov58.github.io/java-async-retry/) [![Habr.com publication](https://badgen.net/badge/habr.com/publication/green)](https://habr.com/ru/post/702628/)
+
 
 ## `Retry<T>` - non-blocking asynchronous functional retry procedure
 
@@ -63,4 +64,6 @@ You can easily implement any desired backoff strategy. Lets say you want Fibonac
     .retry();
 ```
 [See also article on habr.com](https://habr.com/ru/post/702628/) 
+
+
 
